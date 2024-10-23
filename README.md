@@ -9,10 +9,8 @@ Additional Dependencies which needed to be installed
 boto3(only for local enviroment): For S3 interactions.
 pandas: For processing Excel data.
 openpyxl: For reading Excel files.
-logging: For error and info logging.
 
-In my case of I had these dependencies in my aws layer
-
+To manage external dependencies like pandas and openpyxl in AWS Lambda, a Lambda Layer was created.
 When invoked, the Lambda function will process the file, validate data, and return the formatted response as JSON. 
 
 URL:https://ul7sbiyd47.execute-api.us-east-1.amazonaws.com/dev/ProcessS3excelfile2
