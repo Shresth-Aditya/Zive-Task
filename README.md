@@ -15,7 +15,7 @@ When invoked, the Lambda function will process the file, validate data, and retu
 
 URL:https://ul7sbiyd47.execute-api.us-east-1.amazonaws.com/dev/ProcessS3excelfile2
 
-#Task 2:
+# Task 2:
 
 Extracts text from the PDF using PyPDF2.
 Sends the text to Claude AI for specific data extraction.
