@@ -90,7 +90,7 @@ def lambda_handler(event, context):
             # Return the JSON data as Lambda's response
             return {
                 "statusCode": 200,
-                "body": json_output_data
+                "body": json.dumps(json_output_data)
             }
         else:
             raise ValueError("No valid JSON found in the response.")
